@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Erikson - Project 4</title>
+        <script src="program4.js"></script>
+    </head>
+    <body>
+        <h1 align="center">Erikson - Project 4</h1>
+        <p align="center">
+          <input type="text" id="permText"/><button type="button" name="Submit" onclick="main(document.getElementById('permText').value)">Submit</button>
+          <br/>
+          <div>
+            <p align="center" style="margin-bottom:5px;">Possible Examples</p>
+            <table align="center">
+              <td style="padding:0px 10px 0px 10px;"><a id="td1" href="#" onclick="main(document.getElementById('td1').innerHTML)">abc</a></td>
+              <td style="padding:0px 10px 0px 10px;"><a id="td2" href="#" onclick="main(document.getElementById('td2').innerHTML)">hello</a></td>
+              <td style="padding:0px 10px 0px 10px;"><a id="td3" href="#" onclick="main(document.getElementById('td3').innerHTML)">kyle</a></td>
+            </table>
+          </div>
+          <br/>
+          <h4 align="center" style="margin-bottom:10px;margin-top:0px;">All Permutations</h4>
+          <div align="center"><span id="perms"></span></div>
+        </p>
+    </body>
+</html>
