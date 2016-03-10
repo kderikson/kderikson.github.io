@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Erikson - Project 8</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="css/tabulous.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
+  <script src="js/jquery-2.1.1.js"></script>
+	<script src="js/tabulous.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+			$('#tabs').tabulous({
+	    	effect: 'scale'
+	    });
+    });
+
+  </script>
+</head>
+<body>
+	  <header class="top-header static">
+	  		<div class="container">
+	  			<div class="row">
+	  				<div class="col-xs-5 header-logo">
+	  					<br>
+	  					<a href="index.html"><img src="img/logo.jpg" alt="" class="img-responsive logo"></a>
+	  				</div>
+
+	  				<div class="col-md-7">
+	  					<nav class="navbar navbar-default">
+	  					  <div class="container-fluid nav-bar">
+	  					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	  					      <ul class="nav navbar-nav navbar-right">
+	  					        <li><a class="menu" href="index.html" >Home</a></li>
+	  					        <li><a class="menu active" href="about.html">About</a></li>
+	  					        <li><a class="menu" href="news.html">News</a></li>
+	  					        <li><a class="menu" href="events.html">Events</a></li>
+	  					        <li><a class="menu" href="contact.html">Contact</a></li>
+	  					      </ul>
+	  					    </div>
+	  					  </div>
+	  					</nav>
+	  				</div>
+	  			</div>
+	  		</div>
+	  	</header>
+
+		<div class="wrapper">
+				<div class="team team-heading text-center" style="padding-bottom: 0px;">
+					<h2>About Us</h2>
+
+					<h4>Use the tabs below to explore more about City Church.</h4>
+				</div>
+				<div id="tabs">
+					<!-- <h1 align="center" style="color: #fff; margin-bottom: 25px;">About Us</h1> -->
+					<ul id="tabslist">
+						<li><a href="#tabs-1" title="">Mission</a></li>
+						<li><a href="#tabs-2" title="">Service</a></li>
+						<li><a href="#tabs-3" title="">Community</a></li>
+						<li><a href="#tabs-4" title="">Giving</a></li>
+					</ul>
+					<div id="tabs_container">
+						<div id="tabs-1">
+							<h3>This is some kind of tagline.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed viverra risus, id suscipit nibh. Duis sit amet nibh porttitor, posuere felis ornare, posuere magna. Sed tempus mattis dui non pretium. Donec euismod massa a neque rhoncus faucibus. Donec dapibus sed eros et venenatis. Donec placerat magna ante, ut faucibus metus blandit ac. Praesent et dictum orci.</p>
+							<p>Etiam dignissim enim vehicula magna blandit tempor. Suspendisse potenti. Sed metus metus, semper sollicitudin enim nec, ultricies imperdiet tortor. Ut eget lorem vitae dui sollicitudin volutpat quis vitae nunc. Suspendisse fermentum quam at sapien tempus fringilla. Nunc vel urna in nibh interdum porta et quis dolor. Proin vel odio interdum, pretium eros quis, consectetur velit. Etiam ac ultrices turpis. Morbi ut lacus vel nisi scelerisque venenatis ut sed velit. Pellentesque tincidunt lacus a interdum porttitor. Vivamus a massa vitae orci elementum ultricies quis ac velit. Quisque fermentum, ipsum eget tincidunt tempor, odio orci luctus orci, at dapibus mauris leo sit amet augue. Nunc nec fermentum diam.</p>
+						</div>
+						<div id="tabs-2">
+							<h3>This is some kind of tagline.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ex ex, vulputate sed elit non, tincidunt lobortis lectus. Maecenas lorem ipsum, vulputate eu iaculis vel, molestie sed turpis. Nam augue elit, pharetra a gravida a, lacinia cursus purus. Donec faucibus diam id ligula rutrum fermentum. Cras non varius massa. Integer tincidunt posuere lacinia. Aenean orci nisl, hendrerit eu turpis nec, pretium iaculis nulla. Aenean vel dapibus nisi. Phasellus finibus vestibulum purus non gravida. Donec in sodales nisi. Quisque eleifend, mauris nec congue tempus, ipsum lectus vestibulum diam, sed sollicitudin dolor nisl sed sapien. Vestibulum at nisl tortor. Mauris et lectus et eros suscipit varius. Donec risus turpis, sollicitudin in vestibulum ut, interdum nec erat.</p>
+						</div>
+						<div id="tabs-3">
+							<h3>This is some kind of tagline.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed viverra risus, id suscipit nibh. Duis sit amet nibh porttitor, posuere felis ornare, posuere magna. Sed tempus mattis dui non pretium. Donec euismod massa a neque rhoncus faucibus. Donec dapibus sed eros et venenatis. Donec placerat magna ante, ut faucibus metus blandit ac. Praesent et dictum orci.</p>
+							<p>Etiam dignissim enim vehicula magna blandit tempor. Suspendisse potenti. Sed metus metus, semper sollicitudin enim nec, ultricies imperdiet tortor. Ut eget lorem vitae dui sollicitudin volutpat quis vitae nunc. Suspendisse fermentum quam at sapien tempus fringilla. Nunc vel urna in nibh interdum porta et quis dolor. Proin vel odio interdum, pretium eros quis, consectetur velit. Etiam ac ultrices turpis. Morbi ut lacus vel nisi scelerisque venenatis ut sed velit. Pellentesque tincidunt lacus a interdum porttitor. Vivamus a massa vitae orci elementum ultricies quis ac velit. Quisque fermentum, ipsum eget tincidunt tempor, odio orci luctus orci, at dapibus mauris leo sit amet augue. Nunc nec fermentum diam.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ex ex, vulputate sed elit non, tincidunt lobortis lectus. Maecenas lorem ipsum, vulputate eu iaculis vel, molestie sed turpis. Nam augue elit, pharetra a gravida a, lacinia cursus purus. Donec faucibus diam id ligula rutrum fermentum. Cras non varius massa. Integer tincidunt posuere lacinia. Aenean orci nisl, hendrerit eu turpis nec, pretium iaculis nulla. Aenean vel dapibus nisi. Phasellus finibus vestibulum purus non gravida. Donec in sodales nisi. Quisque eleifend, mauris nec congue tempus, ipsum lectus vestibulum diam, sed sollicitudin dolor nisl sed sapien. Vestibulum at nisl tortor. Mauris et lectus et eros suscipit varius. Donec risus turpis, sollicitudin in vestibulum ut, interdum nec erat.</p>
+						</div>
+						<div id="tabs-4">
+							<h3>This is some kind of tagline.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ex ex, vulputate sed elit non, tincidunt lobortis lectus. Maecenas lorem ipsum, vulputate eu iaculis vel, molestie sed turpis. Nam augue elit, pharetra a gravida a, lacinia cursus purus. Donec faucibus diam id ligula rutrum fermentum. Cras non varius massa. Integer tincidunt posuere lacinia. Aenean orci nisl, hendrerit eu turpis nec, pretium iaculis nulla. Aenean vel dapibus nisi. Phasellus finibus vestibulum purus non gravida. Donec in sodales nisi. Quisque eleifend, mauris nec congue tempus, ipsum lectus vestibulum diam, sed sollicitudin dolor nisl sed sapien. Vestibulum at nisl tortor. Mauris et lectus et eros suscipit varius. Donec risus turpis, sollicitudin in vestibulum ut, interdum nec erat.</p>
+						</div>
+					</div>
+				</div>
+		</div>
+
+    	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/custom.js"></script>
+
+</body>
+</html>
