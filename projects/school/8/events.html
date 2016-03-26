@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Erikson - Project 8</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="css/tabulous.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/fullcalendar.css">
+  <script src="js/jquery-2.1.1.js"></script>
+  <script src="js/moment.min.js"></script>
+  <script src="js/fullcalendar.js" charset="utf-8"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $('#calendar').fullCalendar({
+      editable: true,
+      events:  [
+        {
+          title: 'All Church Meeting',
+          start: "2016-03-06 13:00:00"
+        },
+        {
+          title: "Men's Retreat",
+          start: "2016-03-11 18:00:00",
+          end: "2016-03-13 10:00:00"
+        },
+        {
+          title: 'Church Potluck',
+          start: "2016-03-24 19:00:00"
+        },
+        {
+          title: 'Baptism Sunday',
+          start: "2016-03-27 10:00:00"
+        }
+      ]
+    });
+  });
+  </script>
+</head>
+<body>
+	  <header class="top-header static">
+	  		<div class="container">
+	  			<div class="row">
+	  				<div class="col-xs-5 header-logo">
+	  					<br>
+	  					<a href="index.html"><img src="img/logo.jpg" alt="" class="img-responsive logo"></a>
+	  				</div>
+
+	  				<div class="col-md-7">
+	  					<nav class="navbar navbar-default">
+	  					  <div class="container-fluid nav-bar">
+	  					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	  					      <ul class="nav navbar-nav navbar-right">
+	  					        <li><a class="menu" href="index.html" >Home</a></li>
+	  					        <li><a class="menu" href="about.html">About</a></li>
+	  					        <li><a class="menu" href="news.html">News</a></li>
+	  					        <li><a class="menu active" href="events.html">Events</a></li>
+	  					        <li><a class="menu" href="contact.html">Contact</a></li>
+	  					      </ul>
+	  					    </div>
+	  					  </div>
+	  					</nav>
+	  				</div>
+	  			</div>
+	  		</div>
+	  	</header>
+
+    <div class="container-fluid">
+      <div id="calendar" class="cal-wrapper">
+
+      </div>
+    </div>
+
+
+</body>
+</html>
